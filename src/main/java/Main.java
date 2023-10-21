@@ -1,5 +1,7 @@
 import InOut.ReadingXLS;
 import InOut.XlsWriter;
+import InOut.XmlWriter;
+import InOut.JsonWriter;
 import comparators.StudentComparator;
 import comparators.UniversityComparator;
 import enums.StudentComparatorType;
