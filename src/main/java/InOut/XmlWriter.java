@@ -1,6 +1,7 @@
 package InOut;
 
 import model.FullInfo;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;

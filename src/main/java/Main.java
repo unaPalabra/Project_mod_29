@@ -1,7 +1,7 @@
+import InOut.JsonWriter;
 import InOut.ReadingXLS;
 import InOut.XlsWriter;
 import InOut.XmlWriter;
-import InOut.JsonWriter;
 import comparators.StudentComparator;
 import comparators.UniversityComparator;
 import enums.StudentComparatorType;
@@ -31,7 +31,7 @@ public class Main {
             LogManager.getLogManager().readConfiguration(
                     Main.class.getResourceAsStream("/logging.properties"));
         } catch (IOException e) {
-            System.err.println("Could not setup logger configuration: " + e.toString());
+            System.err.println("Could not setup logger configuration: " + e);
         }
 
         logger.log(INFO, "Application started, Logger configured");
